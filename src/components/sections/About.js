@@ -134,7 +134,7 @@ const About = () => {
               <span>
                 <i className="devicon-react-plain" />
               </span>
-              <h4>React Native</h4>
+              <h4 style={{textWrap:"nowrap"}}>React Native</h4>
             </div>
             {/* SKILL ITEM ENDS */}
           </div>
@@ -142,7 +142,8 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-            <i className="devicon-reactbootstrap-plain"></i>
+            {/* <i className="devicon-reactbootstrap-plain"></i> */}
+            <i class="fab fa-bootstrap" aria-label="Bootstrap icon"></i>
               </span>
               <h4>Bootstrap</h4>
             </div>
@@ -172,6 +173,25 @@ const About = () => {
               </span>
               <h4>Sass</h4>
             </div>
+            
+            {/* SKILL ITEM ENDS */}
+          </div>
+          <div>
+            {/* SKILL ITEM STARTS */}
+            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+              <span>
+                <i class="devicon-nextjs-plain" aria-label="Next.js icon"></i>
+              </span>
+              <h4>Next.JS</h4>
+            </div>
+            <div className="animated-layer fade-in-up-animation fadeInRight wow">
+              <span>
+                <i class="devicon-postgresql-plain" aria-label="PostgreSQL icon"></i>
+              </span>
+              <h4>PostgreSQL</h4>
+            </div>
+            {/* SKILL ITEM ENDS */}
+            {/* SKILL ITEM STARTS */}
             
             {/* SKILL ITEM ENDS */}
           </div>
@@ -234,12 +254,27 @@ const About = () => {
             {/* TIMELINE ITEM ENDS */}
             {/* TIMELINE ITEM STARTS */}
             <li>
+              <div className="animated-layer fade-in-down-animation fadeInUp wow">
+                <div className="education">
+                  <h4>Full Stack Developer</h4>
+                  <p>
+                    <i class="fa-solid fa-layer-group"></i>
+                    <span>Next.JS, Prisma, PostgreSQL</span>
+                  </p>
+                  <p>
+                    <i className="fa-regular fa-building" />
+                    <span>AMProtocol Labs</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
               <div className="animated-layer fade-in-up-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Mid Level Frontend React Developer</h4>
+                  <h4>Mid Level Frontend Developer</h4>
                   <p>
-                    <i className="fa-regular fa-clock" />
-                    <span>2024 - current </span>
+                    <i class="fa-solid fa-layer-group"></i>
+                    <span>React.JS, React Native, Material UI,</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
@@ -272,8 +307,8 @@ const About = () => {
                 <div className="experience">
                   <h4>Junior Web Developer</h4>
                   <p>
-                    <i className="fa-regular fa-clock" />
-                    <span>2023</span>
+                    <i class="fa-solid fa-layer-group"></i>
+                    <span>HTML, CSS, Javascript, Wordpress</span>
                   </p>
                   <p>
                     <i className="fa-solid fa-building-columns" />
@@ -290,7 +325,7 @@ const About = () => {
                   <h4>Bachelor Degree</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2022</span>
+                    <span>2018-2022</span>
                   </p>
                   <p>
                     <i className="fa-solid fa-building-columns" />

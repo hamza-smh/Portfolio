@@ -143,7 +143,7 @@ const About = () => {
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
             {/* <i className="devicon-reactbootstrap-plain"></i> */}
-            <i class="fab fa-bootstrap" aria-label="Bootstrap icon"></i>
+            <i className="fab fa-bootstrap" aria-label="Bootstrap icon"></i>
               </span>
               <h4>Bootstrap</h4>
             </div>
@@ -180,13 +180,13 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i class="devicon-nextjs-plain" aria-label="Next.js icon"></i>
+                <i className="devicon-nextjs-plain" aria-label="Next.js icon"></i>
               </span>
               <h4>Next.JS</h4>
             </div>
             <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
-                <i class="devicon-postgresql-plain" aria-label="PostgreSQL icon"></i>
+                <i className="devicon-postgresql-plain" aria-label="PostgreSQL icon"></i>
               </span>
               <h4>PostgreSQL</h4>
             </div>
@@ -258,7 +258,7 @@ const About = () => {
                 <div className="education">
                   <h4>Full Stack Developer</h4>
                   <p>
-                    <i class="fa-solid fa-layer-group"></i>
+                    <i className="fa-solid fa-layer-group"></i>
                     <span>Next.JS, Prisma, PostgreSQL</span>
                   </p>
                   <p>
@@ -273,7 +273,7 @@ const About = () => {
                 <div className="experience">
                   <h4>Mid Level Frontend Developer</h4>
                   <p>
-                    <i class="fa-solid fa-layer-group"></i>
+                    <i className="fa-solid fa-layer-group"></i>
                     <span>React.JS, React Native, Material UI,</span>
                   </p>
                   <p>
@@ -307,7 +307,7 @@ const About = () => {
                 <div className="experience">
                   <h4>Junior Web Developer</h4>
                   <p>
-                    <i class="fa-solid fa-layer-group"></i>
+                    <i className="fa-solid fa-layer-group"></i>
                     <span>HTML, CSS, Javascript, Wordpress</span>
                   </p>
                   <p>

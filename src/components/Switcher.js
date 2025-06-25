@@ -27,13 +27,12 @@ const Switcher = () => {
         <div className="content-switcher">
           <h4>COLOR SWITCHER</h4>
           <ul>
-            {colors.map((color) => (
-              <li>
+            {colors.map((id,color) => (
+              <li key = {color.id}>
                 <a
                   href="#"
                   title={color.name}
                   className="color"
-                  key={color.id}
                   onClick={() => setColor(color.name)}
                 >
                   <img

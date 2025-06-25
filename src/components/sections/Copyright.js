@@ -7,34 +7,35 @@ const Copyright = () => {
         src="assets/separator-copyright.png"
       />
       <div>
-        <span>© {new Date().getFullYear()} Steven Walker</span>
+        <span>© {new Date().getFullYear()} </span>
         <span>
           Designed By{" "}
+          <br />
           <a
             target="_blank"
-            href="https://themeforest.net/user/Codeefly/portfolio"
+            href="https://www.linkedin.com/in/syed-muhammad-hamza-1822a7209/"
           >
-            Codeefly
+             Syed Muhammad Hamza
           </a>
         </span>
         <ul>
           <li>
-            <a href="#">
+            <a href = "https://github.com/hamza-smh" >
               <i className="fa-brands fa-github" />
             </a>
           </li>
           <li>
-            <a href="#">
-              <i className="fa-brands fa-twitter" />
+            <a href = "https://www.instagram.com/hamza_smh/" >
+              <i className="fa-brands fa-instagram" />
             </a>
           </li>
           <li>
-            <a href="#">
-              <i className="fa-brands fa-dribbble" />
+            <a href = "https://www.linkedin.com/in/syed-muhammad-hamza-1822a7209/" >
+              <i className="fa-brands fa-linkedin" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href = "https://www.facebook.com/share/1CoLy47Kh4/" >
               <i className="fa-brands fa-facebook" />
             </a>
           </li>

@@ -49,6 +49,7 @@ body {
   background-color: #0b0b0b;
   margin: 0;
   color: #fff;
+  overflow-y:hidden;
 }
 
 #wrapper {
@@ -1318,9 +1319,9 @@ header .mobile-menu {
   align-items: center;
   justify-content: center;
   background: rgba(0, 0, 0, 0.6);
-  height: 120px;
+  height: 150px;
   width: 250px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .clients .swiper-slide > div:first-child {
